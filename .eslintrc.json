@@ -1,0 +1,21 @@
+{
+  "extends": "standard",
+  "env": {
+    "mocha": true,
+    "node": true,
+    "commonjs": true
+  },
+  "rules": {
+    "no-extend-native": "off",
+    "valid-jsdoc": [
+      "error",
+      {
+        "requireParamDescription": false,
+        "requireReturnDescription": false,
+        "prefer": {
+          "return": "return"
+        }
+      }
+    ]
+  }
+}
