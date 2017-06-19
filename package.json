@@ -1,0 +1,46 @@
+{
+  "name": "dddjs",
+  "version": "0.1.0",
+  "description": "Domain Driven Design with javascript",
+  "main": "./src/main.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": "git+https://KedemHai@bitbucket.org/KedemHai/ddd-js.git",
+  "keywords": [
+    "value object",
+    "ddd",
+    "domain",
+    "driven",
+    "design",
+    "javascript"
+  ],
+  "author": "Hai Kedem <hai@omset.net>",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "timezone-js": "^0.4.13",
+    "tzdata": "^1.0.7",
+    "urijs": "^1.18.10",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.4.0",
+    "chai": "^4.0.2",
+    "deamdify": "^0.3.0",
+    "deglobalify": "^0.2.0",
+    "dotenv": "^4.0.0",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^20.0.0",
+    "grunt-mocha-phantomjs": "^4.0.0",
+    "grunt-mocha-test": "^0.13.2",
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.4.1",
+    "sinon": "^2.3.4",
+    "standard": "^10.0.2"
+  }
+}
